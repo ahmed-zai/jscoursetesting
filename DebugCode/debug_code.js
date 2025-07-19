@@ -14,10 +14,14 @@ function performOperation() {
     }
 }
 function multiply(a ,b) {
-
-    debugger;
-
-    return a * b ;
+      
+     debugger; 
+      c = a + b ;
+      d = a - b ;
+      f = a / b ;
+      g = a * b;
+      e = [c , d ,  f, g]
+    return e ;
 
 
 }
